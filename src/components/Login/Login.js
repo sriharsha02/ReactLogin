@@ -110,6 +110,7 @@ const Login = (props) => {
           <label htmlFor="password">Password</label>
           <input
             type="password"
+            
             id="password"
             value={passwordState.value}
             onChange={passwordChangeHandler}
